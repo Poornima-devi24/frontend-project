@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    body{
+        background-image: url("840305-gray-study-dice-on-table-free-stock-photo.jpg");
+        background-size: 100%;
+    }
+    .header{
+        background-color:bisque;
+        padding: 15px;
+        text-align: center;
+    }
+    .nav_menu{
+        background-color: rgb(6, 122, 143);
+      text-decoration: none;
+        overflow: hidden;
+    }
+    .nav_menu a{
+        float: left;
+            display: block;
+            color:black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+    }
+    .nav_menu a:hover{
+        background-color: white;
+    }
+    fieldset{
+        height: 200px;
+        width:200px;
+        margin-top: 100px;
+        margin-left:550px ;
+        border-color: black;
+        background-color:bisque;
+    }
+    form{
+            width: 300px;
+            height: 200px;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 2rem;
+        }
+        
+        label{
+           
+            width: 30%;
+        }
+        
+        input{
+            background-color: default;
+            float: right;
+          
+        }
+        
+        input:focus{
+            background-color: rgb(252, 252, 252);
+        }
+        
+        h1, h2{
+            color: rgb(39, 211, 211);
+            text-align: center;
+        }
+        button {
+  background-color: white;
+  color: rgb(14, 13, 13); 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 60px;
+}
+
+   
+</style>
+<body>
+    <div class ="header">
+        <h1 style="color:black;font-size: larger;">Signup Page!!</h1>
+    </div>
+    <div class="nav_menu">
+        <a href="sample.html">home</a>
+        <a href="sample2.html">Login</a>
+        <a href="sample3.html">Registration</a>
+        
+       
+    </div>
+    <fieldset>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" name="Username" placeholder="Enter your name"/>
+        <br>
+        <label for="emailid">Email-Id:</label>
+        <input type="email" name="email-id" placeholder="Enter your email-id"/>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password"/>
+        <br>
+        <label for="password">confirm password:</label>
+        <input type="password" name="password" placeholder="Enter your password"/>
+        <br>
+        <button type="submit">Signup</button>
+     </form>
+    </fieldset>
+</body>
+</html>
