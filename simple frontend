@@ -1,0 +1,63 @@
+// front page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<style>
+    body{
+        background-image: url("840305-gray-study-dice-on-table-free-stock-photo.jpg");
+        background-size: 100% ;
+    }
+    .header{
+        background-color:bisque;
+        padding: 15px;
+        text-align: center;
+    }
+    .nav_menu{
+        background-color: rgb(6, 122, 143);
+      text-decoration: none;
+        overflow: hidden;
+}
+.nav_menu a {
+            float: left;
+            display: block;
+            color:black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+.nav_menu a:hover{
+    background-color: white;
+}
+.columnA{
+    margin-left: 300px;
+    padding: 15px;
+    width: 60%;
+    text-align: justify;
+    margin-top:150px ;
+    }
+    .columnA p{
+        color: black;
+        font-size: larger;
+    }
+</style>
+<body>
+    <div class ="header">
+        <h1 style="color:black;font-size: larger;">WELCOME!</h1>
+    </div>
+    <div class="nav_menu">
+        <a href="sample2.html">Login</a>
+        <a href="sample3.html">Registration</a>
+        <a href="sample4.html">Signup</a>
+      
+    </div>
+    <div class="row">
+        <div class="columnA">
+            <p>An online study material website is a valuable resource for students and professionals seeking to enhance their knowledge and skills. It offers a wide range of educational content, including lecture notes, tutorials, practice exams, and video lessons, across various subjects and disciplines. Accessible anytime and anywhere, these platforms provide a convenient way to supplement classroom learning, prepare for exams, and stay updated with the latest developments in one's field. With interactive tools and community support, users can engage deeply with the material, ask questions, and collaborate with peers, making the learning experience more dynamic and effective.</p>
+        </div>
+    </div>
+</body>
+</html>
